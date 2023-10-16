@@ -25,6 +25,20 @@ FOREIGN KEY (team_id) references Team(id),
 FOREIGN KEY (ability_id) references Ability(id)
  );
  
+ INSERT INTO Ability (ability)
+ VALUES
+ ('Marital arts'), 
+ ('Flight'),
+ ('Super-Speed'),
+ ('Ring Creation'),
+ ('Crossbow Archery'),
+ ('Hammer Fighting'),
+ ('Marksmanship'),
+ ('Induce dizziness'),
+ ('Swordsmansihp'),
+ ('Acrobatics');
+ 
+ select * from ability;
 
  
  
